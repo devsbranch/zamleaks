@@ -1,0 +1,613 @@
+2023-12-23 06:39:34+0200 [-] twistd 22.4.0 (/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/bin/python 3.9.18) starting up.
+2023-12-23 06:39:34+0200 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2023-12-23 06:39:34+0200 [-] Starting factory <Site object at 0x105a63bb0>
+2023-12-23 06:39:34+0200 [-] [E] Failed to initialize Tor connection; error: Tor control port not open on /Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/workingdir/tmp/tor_control; waiting for Tor to become available
+2023-12-23 06:39:34+0200 [-] GlobaLeaks is now running and accessible at the following urls:
+2023-12-23 06:39:34+0200 [-] - [HTTPS]: https://127.0.0.1:8443
+2023-12-23 06:39:34+0200 [-] - [Tor]:  http://m3ydymm7qtmhqu3l4ixnmdqlrkma33tefw6cta2wowxsriuls4ot42id.onion
+2023-12-23 06:39:34+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x105cbcaf0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x105c696a0>)
+2023-12-23 06:39:35+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x105cbcaf0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x105c696a0>)
+2023-12-23 07:11:02+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1060ce310>, <twisted.internet.endpoints._WrapperEndpoint object at 0x10608e520>)
+2023-12-23 07:11:02+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1060c5dc0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x1060941c0>)
+2023-12-23 07:11:02+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1060ce310>, <twisted.internet.endpoints._WrapperEndpoint object at 0x10608e520>)
+2023-12-23 07:11:02+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1060c5dc0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x1060941c0>)
+2023-12-23 09:12:05+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x106137ee0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x10609db50>)
+2023-12-23 09:12:06+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x106137ee0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x10609db50>)
+2023-12-23 09:27:10+0200 [-] Stopping factory <Site object at 0x105a63bb0>
+2023-12-23 09:27:10+0200 [-] Server Shut Down.
+2023-12-23 09:27:13+0200 [-] twistd 22.4.0 (/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/bin/python 3.9.18) starting up.
+2023-12-23 09:27:13+0200 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2023-12-23 09:27:15+0200 [-] [E] Found an already initialized database version: 66
+2023-12-23 09:27:15+0200 [-] Starting factory <Site object at 0x10f942f70>
+2023-12-23 09:27:15+0200 [-] [E] Failed to initialize Tor connection; error: Tor control port not open on /Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/workingdir/tmp/tor_control; waiting for Tor to become available
+2023-12-23 09:27:15+0200 [-] GlobaLeaks is now running and accessible at the following urls:
+2023-12-23 09:27:15+0200 [-] - [HTTPS]: https://127.0.0.1:8443
+2023-12-23 09:27:15+0200 [-] - [Tor]:  http://m3ydymm7qtmhqu3l4ixnmdqlrkma33tefw6cta2wowxsriuls4ot42id.onion
+2023-12-23 09:27:16+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1115cf5e0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x11162ed30>)
+2023-12-23 09:27:17+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1115cf5e0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x11162ed30>)
+2023-12-23 09:40:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x111a3dca0>
+2023-12-23 09:41:02+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x111a3dca0>
+2023-12-23 09:57:20+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x111eca9d0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x111c303a0>)
+2023-12-23 09:57:23+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x111eca9d0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x111c303a0>)
+2023-12-23 10:00:01+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x111ea51f0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x111ce36a0>)
+2023-12-23 10:00:02+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x111ea51f0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x111ce36a0>)
+2023-12-23 10:25:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11202abe0>
+2023-12-23 10:25:24+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11202abe0>
+2023-12-23 10:27:16+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112120160>, <twisted.internet.endpoints._WrapperEndpoint object at 0x11203d490>)
+2023-12-23 10:27:19+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112120160>, <twisted.internet.endpoints._WrapperEndpoint object at 0x11203d490>)
+2023-12-23 10:27:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11211f760>
+2023-12-23 10:27:47+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11211f760>
+2023-12-23 10:50:04+0200 [-] Exception ignored in: <function _StreamingEncryptionObject.__del__ at 0x10eaa1160>
+2023-12-23 10:50:04+0200 [-] Traceback (most recent call last):
+2023-12-23 10:50:04+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/globaleaks/utils/crypto.py", line 192, in __del__
+2023-12-23 10:50:04+0200 [-]     self.close()
+2023-12-23 10:50:04+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/globaleaks/utils/crypto.py", line 181, in close
+2023-12-23 10:50:04+0200 [-]     if self.fd is not None:
+2023-12-23 10:50:04+0200 [-] AttributeError: '_StreamingEncryptionObject' object has no attribute 'fd'
+2023-12-23 10:57:15+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1122ef280>, <twisted.internet.endpoints._WrapperEndpoint object at 0x112325bb0>)
+2023-12-23 10:57:17+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1122ef280>, <twisted.internet.endpoints._WrapperEndpoint object at 0x112325bb0>)
+2023-12-23 13:24:49+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112366f70>, <twisted.internet.endpoints._WrapperEndpoint object at 0x11237ad30>)
+2023-12-23 13:24:54+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112366f70>, <twisted.internet.endpoints._WrapperEndpoint object at 0x11237ad30>)
+2023-12-23 15:24:52+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112384280>, <twisted.internet.endpoints._WrapperEndpoint object at 0x111d80b50>)
+2023-12-23 15:24:56+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112384280>, <twisted.internet.endpoints._WrapperEndpoint object at 0x111d80b50>)
+2023-12-23 19:05:01+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112384a60>, <twisted.internet.endpoints._WrapperEndpoint object at 0x112178880>)
+2023-12-23 19:05:06+0200 [-] [E] Job ExitNodesRefresh died with runtime 10224.8564 [low: 2132.0000, high: 33960.0000]
+2023-12-23 19:05:06+0200 [-] Traceback (most recent call last):
+2023-12-23 19:05:06+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/globaleaks/jobs/job.py", line 49, in run
+2023-12-23 19:05:06+0200 [-]     yield self.operation()
+2023-12-23 19:05:06+0200 [-] twisted.internet.error.TimeoutError: User timeout caused connection failure.
+2023-12-23 19:05:06+0200 [-] [E] exception mail suppressed for exception (<class 'twisted.internet.error.TimeoutError'>) [reason: special exception]
+2023-12-23 19:05:06+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112384a60>, <twisted.internet.endpoints._WrapperEndpoint object at 0x112178880>)
+2023-12-23 19:29:14+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112330550>, <twisted.internet.endpoints._WrapperEndpoint object at 0x111d80b50>)
+2023-12-23 19:29:18+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112330550>, <twisted.internet.endpoints._WrapperEndpoint object at 0x111d80b50>)
+2023-12-24 11:11:28+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112390430>, <twisted.internet.endpoints._WrapperEndpoint object at 0x112369610>)
+2023-12-24 11:11:28+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112330700>, <twisted.internet.endpoints._WrapperEndpoint object at 0x112071370>)
+2023-12-24 11:11:29+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112330700>, <twisted.internet.endpoints._WrapperEndpoint object at 0x112071370>)
+2023-12-24 11:11:29+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112390430>, <twisted.internet.endpoints._WrapperEndpoint object at 0x112369610>)
+2023-12-24 11:27:16+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1123905e0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x1123dc280>)
+2023-12-24 11:27:17+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1123905e0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x1123dc280>)
+2023-12-24 11:57:15+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1123f0f70>, <twisted.internet.endpoints._WrapperEndpoint object at 0x1123f8d60>)
+2023-12-24 11:57:16+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1123f0f70>, <twisted.internet.endpoints._WrapperEndpoint object at 0x1123f8d60>)
+2023-12-24 12:27:16+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1123dd550>, <twisted.internet.endpoints._WrapperEndpoint object at 0x1123f2730>)
+2023-12-24 12:27:18+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1123dd550>, <twisted.internet.endpoints._WrapperEndpoint object at 0x1123f2730>)
+2023-12-24 12:57:15+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1124605e0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x1124465b0>)
+2023-12-24 12:57:16+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1124605e0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x1124465b0>)
+2023-12-24 14:19:57+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112424550>, <twisted.internet.endpoints._WrapperEndpoint object at 0x112416d90>)
+2023-12-24 14:19:58+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112424550>, <twisted.internet.endpoints._WrapperEndpoint object at 0x112416d90>)
+2023-12-24 15:08:24+0200 [-] [E] Job ExitNodesRefresh died with runtime 3061.1468 [low: 848.0000, high: 33960.0000]
+2023-12-24 15:08:24+0200 [-] Traceback (most recent call last):
+2023-12-24 15:08:24+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/globaleaks/jobs/job.py", line 49, in run
+2023-12-24 15:08:24+0200 [-]     yield self.operation()
+2023-12-24 15:08:24+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/lib/python3.9/site-packages/twisted/internet/defer.py", line 857, in _runCallbacks
+2023-12-24 15:08:24+0200 [-]     current.result = callback(  # type: ignore[misc]
+2023-12-24 15:08:24+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/lib/python3.9/site-packages/twisted/internet/endpoints.py", line 1020, in startConnectionAttempts
+2023-12-24 15:08:24+0200 [-]     raise error.DNSLookupError(
+2023-12-24 15:08:24+0200 [-] twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: deb.globaleaks.org.
+2023-12-24 15:08:24+0200 [-] [E] exception mail suppressed for exception (<class 'twisted.internet.error.DNSLookupError'>) [reason: special exception]
+2023-12-24 15:55:44+0200 [-] [E] Job ExitNodesRefresh died with runtime 4817.0027 [low: 848.0000, high: 33960.0000]
+2023-12-24 15:55:44+0200 [-] Traceback (most recent call last):
+2023-12-24 15:55:44+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/globaleaks/jobs/job.py", line 49, in run
+2023-12-24 15:55:44+0200 [-]     yield self.operation()
+2023-12-24 15:55:44+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/lib/python3.9/site-packages/twisted/internet/defer.py", line 857, in _runCallbacks
+2023-12-24 15:55:44+0200 [-]     current.result = callback(  # type: ignore[misc]
+2023-12-24 15:55:44+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/lib/python3.9/site-packages/twisted/internet/endpoints.py", line 1020, in startConnectionAttempts
+2023-12-24 15:55:44+0200 [-]     raise error.DNSLookupError(
+2023-12-24 15:55:44+0200 [-] twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: deb.globaleaks.org.
+2023-12-24 15:55:44+0200 [-] [E] exception mail suppressed for exception (<class 'twisted.internet.error.DNSLookupError'>) [reason: special exception]
+2023-12-24 15:57:15+0200 [-] [E] Job ExitNodesRefresh died with runtime 3699.5019 [low: 848.0000, high: 33960.0000]
+2023-12-24 15:57:15+0200 [-] Traceback (most recent call last):
+2023-12-24 15:57:15+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/globaleaks/jobs/job.py", line 49, in run
+2023-12-24 15:57:15+0200 [-]     yield self.operation()
+2023-12-24 15:57:15+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/lib/python3.9/site-packages/twisted/internet/defer.py", line 857, in _runCallbacks
+2023-12-24 15:57:15+0200 [-]     current.result = callback(  # type: ignore[misc]
+2023-12-24 15:57:15+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/lib/python3.9/site-packages/twisted/internet/endpoints.py", line 1020, in startConnectionAttempts
+2023-12-24 15:57:15+0200 [-]     raise error.DNSLookupError(
+2023-12-24 15:57:15+0200 [-] twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: deb.globaleaks.org.
+2023-12-24 15:57:15+0200 [-] [E] exception mail suppressed for exception (<class 'twisted.internet.error.DNSLookupError'>) [reason: special exception]
+2023-12-24 16:06:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124371c0>
+2023-12-24 16:06:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:06:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124371c0>
+2023-12-24 16:06:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11246b7f0>
+2023-12-24 16:06:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:06:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11246b7f0>
+2023-12-24 16:06:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112479df0>
+2023-12-24 16:06:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:06:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112479df0>
+2023-12-24 16:06:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112470130>
+2023-12-24 16:06:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:06:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112470130>
+2023-12-24 16:07:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112479ac0>
+2023-12-24 16:07:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:07:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112479ac0>
+2023-12-24 16:07:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112485610>
+2023-12-24 16:07:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:07:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112485610>
+2023-12-24 16:07:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11244a190>
+2023-12-24 16:07:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:07:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11244a190>
+2023-12-24 16:07:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247e520>
+2023-12-24 16:07:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:07:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247e520>
+2023-12-24 16:07:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112474850>
+2023-12-24 16:07:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:07:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112474850>
+2023-12-24 16:07:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125063a0>
+2023-12-24 16:07:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:07:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125063a0>
+2023-12-24 16:08:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247e400>
+2023-12-24 16:08:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:08:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247e400>
+2023-12-24 16:08:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247e3a0>
+2023-12-24 16:08:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:08:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247e3a0>
+2023-12-24 16:08:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11244af40>
+2023-12-24 16:08:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:08:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11244af40>
+2023-12-24 16:08:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124494c0>
+2023-12-24 16:08:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:08:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124494c0>
+2023-12-24 16:08:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11257ee50>
+2023-12-24 16:08:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:08:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11257ee50>
+2023-12-24 16:08:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125d0820>
+2023-12-24 16:08:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:08:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125d0820>
+2023-12-24 16:09:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112470fd0>
+2023-12-24 16:09:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:09:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112470fd0>
+2023-12-24 16:09:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112556b50>
+2023-12-24 16:09:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:09:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112556b50>
+2023-12-24 16:09:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124f9700>
+2023-12-24 16:09:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:09:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124f9700>
+2023-12-24 16:09:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112470d00>
+2023-12-24 16:09:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:09:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112470d00>
+2023-12-24 16:09:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112559b20>
+2023-12-24 16:09:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:09:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112559b20>
+2023-12-24 16:09:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112503e50>
+2023-12-24 16:09:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:09:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112503e50>
+2023-12-24 16:10:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112556f40>
+2023-12-24 16:10:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:10:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112556f40>
+2023-12-24 16:10:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11254e1c0>
+2023-12-24 16:10:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:10:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11254e1c0>
+2023-12-24 16:10:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112449ee0>
+2023-12-24 16:10:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:10:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112449ee0>
+2023-12-24 16:10:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11254e130>
+2023-12-24 16:10:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:10:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11254e130>
+2023-12-24 16:10:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125d0880>
+2023-12-24 16:10:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:10:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125d0880>
+2023-12-24 16:10:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112485430>
+2023-12-24 16:10:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:10:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112485430>
+2023-12-24 16:11:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124f93a0>
+2023-12-24 16:11:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:11:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124f93a0>
+2023-12-24 16:11:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11254e3d0>
+2023-12-24 16:11:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:11:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11254e3d0>
+2023-12-24 16:11:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125850a0>
+2023-12-24 16:11:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:11:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125850a0>
+2023-12-24 16:11:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247e5e0>
+2023-12-24 16:11:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:11:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247e5e0>
+2023-12-24 16:11:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11251b520>
+2023-12-24 16:11:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:11:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11251b520>
+2023-12-24 16:11:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112559730>
+2023-12-24 16:11:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:11:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112559730>
+2023-12-24 16:12:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1123d5dc0>
+2023-12-24 16:12:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:12:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1123d5dc0>
+2023-12-24 16:12:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112544880>
+2023-12-24 16:12:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:12:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112544880>
+2023-12-24 16:12:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11251b8e0>
+2023-12-24 16:12:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:12:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11251b8e0>
+2023-12-24 16:12:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112530910>
+2023-12-24 16:12:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:12:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112530910>
+2023-12-24 16:12:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247a700>
+2023-12-24 16:12:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:12:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247a700>
+2023-12-24 16:12:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11246bbe0>
+2023-12-24 16:12:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:12:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11246bbe0>
+2023-12-24 16:13:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247e5e0>
+2023-12-24 16:13:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:13:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247e5e0>
+2023-12-24 16:13:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112545d30>
+2023-12-24 16:13:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:13:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112545d30>
+2023-12-24 16:13:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1123f86a0>
+2023-12-24 16:13:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:13:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1123f86a0>
+2023-12-24 16:13:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125d0070>
+2023-12-24 16:13:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:13:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125d0070>
+2023-12-24 16:13:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112543220>
+2023-12-24 16:13:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:13:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112543220>
+2023-12-24 16:13:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11254f040>
+2023-12-24 16:13:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:13:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11254f040>
+2023-12-24 16:14:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124797c0>
+2023-12-24 16:14:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:14:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124797c0>
+2023-12-24 16:14:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112470c10>
+2023-12-24 16:14:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:14:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112470c10>
+2023-12-24 16:14:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124231c0>
+2023-12-24 16:14:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:14:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124231c0>
+2023-12-24 16:14:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124f9bb0>
+2023-12-24 16:14:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:14:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124f9bb0>
+2023-12-24 16:14:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247aac0>
+2023-12-24 16:14:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:14:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247aac0>
+2023-12-24 16:14:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125438b0>
+2023-12-24 16:14:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:14:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125438b0>
+2023-12-24 16:15:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112431c40>
+2023-12-24 16:15:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:15:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112431c40>
+2023-12-24 16:15:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125440a0>
+2023-12-24 16:15:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:15:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125440a0>
+2023-12-24 16:15:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112559f10>
+2023-12-24 16:15:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:15:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112559f10>
+2023-12-24 16:15:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11251b520>
+2023-12-24 16:15:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:15:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11251b520>
+2023-12-24 16:15:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112545760>
+2023-12-24 16:15:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:15:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112545760>
+2023-12-24 16:15:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112547c10>
+2023-12-24 16:15:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:15:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112547c10>
+2023-12-24 16:16:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585640>
+2023-12-24 16:16:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:16:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585640>
+2023-12-24 16:16:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112544520>
+2023-12-24 16:16:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:16:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112544520>
+2023-12-24 16:16:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112567be0>
+2023-12-24 16:16:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:16:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112567be0>
+2023-12-24 16:16:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112500eb0>
+2023-12-24 16:16:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:16:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112500eb0>
+2023-12-24 16:16:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125cb9d0>
+2023-12-24 16:16:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:16:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125cb9d0>
+2023-12-24 16:16:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125d0310>
+2023-12-24 16:16:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:16:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125d0310>
+2023-12-24 16:17:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124f9610>
+2023-12-24 16:17:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:17:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124f9610>
+2023-12-24 16:17:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112556ac0>
+2023-12-24 16:17:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:17:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112556ac0>
+2023-12-24 16:17:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112485850>
+2023-12-24 16:17:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:17:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112485850>
+2023-12-24 16:17:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247a460>
+2023-12-24 16:17:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:17:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247a460>
+2023-12-24 16:17:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112503e20>
+2023-12-24 16:17:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:17:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112503e20>
+2023-12-24 16:17:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11246b850>
+2023-12-24 16:17:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:17:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11246b850>
+2023-12-24 16:18:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112503250>
+2023-12-24 16:18:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:18:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112503250>
+2023-12-24 16:18:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112470a00>
+2023-12-24 16:18:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:18:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112470a00>
+2023-12-24 16:18:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11245f5e0>
+2023-12-24 16:18:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:18:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11245f5e0>
+2023-12-24 16:18:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585070>
+2023-12-24 16:18:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:18:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585070>
+2023-12-24 16:18:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1123dce20>
+2023-12-24 16:18:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:18:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1123dce20>
+2023-12-24 16:18:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11257e3a0>
+2023-12-24 16:18:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:18:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11257e3a0>
+2023-12-24 16:19:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11251bd00>
+2023-12-24 16:19:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:19:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11251bd00>
+2023-12-24 16:19:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112567c40>
+2023-12-24 16:19:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:19:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112567c40>
+2023-12-24 16:19:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112545a00>
+2023-12-24 16:19:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:19:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112545a00>
+2023-12-24 16:19:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112451c10>
+2023-12-24 16:19:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:19:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112451c10>
+2023-12-24 16:19:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112547e50>
+2023-12-24 16:19:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:19:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112547e50>
+2023-12-24 16:19:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585a90>
+2023-12-24 16:19:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:19:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585a90>
+2023-12-24 16:20:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112533a60>
+2023-12-24 16:20:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:20:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112533a60>
+2023-12-24 16:20:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11251bd60>
+2023-12-24 16:20:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:20:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11251bd60>
+2023-12-24 16:20:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112559340>
+2023-12-24 16:20:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:20:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112559340>
+2023-12-24 16:20:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112530d00>
+2023-12-24 16:20:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:20:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112530d00>
+2023-12-24 16:20:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247ad30>
+2023-12-24 16:20:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:20:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247ad30>
+2023-12-24 16:20:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124312b0>
+2023-12-24 16:20:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:20:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124312b0>
+2023-12-24 16:21:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11245d550>
+2023-12-24 16:21:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:21:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11245d550>
+2023-12-24 16:21:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11254f250>
+2023-12-24 16:21:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:21:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11254f250>
+2023-12-24 16:21:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247aa60>
+2023-12-24 16:21:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:21:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11247aa60>
+2023-12-24 16:21:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11254e190>
+2023-12-24 16:21:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:21:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11254e190>
+2023-12-24 16:21:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125432e0>
+2023-12-24 16:21:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:21:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125432e0>
+2023-12-24 16:21:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125ead00>
+2023-12-24 16:21:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:21:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125ead00>
+2023-12-24 16:22:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124f9340>
+2023-12-24 16:22:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:22:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124f9340>
+2023-12-24 16:22:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125ea160>
+2023-12-24 16:22:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:22:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125ea160>
+2023-12-24 16:22:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585f40>
+2023-12-24 16:22:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:22:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585f40>
+2023-12-24 16:22:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125ea880>
+2023-12-24 16:22:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:22:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125ea880>
+2023-12-24 16:22:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125009a0>
+2023-12-24 16:22:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:22:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125009a0>
+2023-12-24 16:22:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125eae80>
+2023-12-24 16:22:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:22:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125eae80>
+2023-12-24 16:23:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1126026d0>
+2023-12-24 16:23:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:23:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1126026d0>
+2023-12-24 16:23:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125031f0>
+2023-12-24 16:23:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:23:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125031f0>
+2023-12-24 16:23:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11244a250>
+2023-12-24 16:23:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:23:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11244a250>
+2023-12-24 16:23:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112547370>
+2023-12-24 16:23:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:23:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112547370>
+2023-12-24 16:23:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112545b50>
+2023-12-24 16:23:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:23:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112545b50>
+2023-12-24 16:23:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112533ca0>
+2023-12-24 16:23:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:23:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112533ca0>
+2023-12-24 16:24:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112533e20>
+2023-12-24 16:24:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:24:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112533e20>
+2023-12-24 16:24:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11251b580>
+2023-12-24 16:24:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:24:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11251b580>
+2023-12-24 16:24:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125443a0>
+2023-12-24 16:24:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:24:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125443a0>
+2023-12-24 16:24:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11254e850>
+2023-12-24 16:24:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:24:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11254e850>
+2023-12-24 16:24:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125304f0>
+2023-12-24 16:24:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:24:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125304f0>
+2023-12-24 16:24:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585f10>
+2023-12-24 16:24:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:24:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585f10>
+2023-12-24 16:25:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112545130>
+2023-12-24 16:25:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:25:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112545130>
+2023-12-24 16:25:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585250>
+2023-12-24 16:25:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:25:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585250>
+2023-12-24 16:25:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112567a00>
+2023-12-24 16:25:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:25:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112567a00>
+2023-12-24 16:25:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585ca0>
+2023-12-24 16:25:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:25:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585ca0>
+2023-12-24 16:25:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112567580>
+2023-12-24 16:25:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:25:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112567580>
+2023-12-24 16:25:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125859a0>
+2023-12-24 16:25:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:25:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125859a0>
+2023-12-24 16:26:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125038e0>
+2023-12-24 16:26:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:26:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125038e0>
+2023-12-24 16:26:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585730>
+2023-12-24 16:26:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:26:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585730>
+2023-12-24 16:26:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112500070>
+2023-12-24 16:26:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:26:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112500070>
+2023-12-24 16:26:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112570490>
+2023-12-24 16:26:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:26:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112570490>
+2023-12-24 16:26:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11254ec40>
+2023-12-24 16:26:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:26:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11254ec40>
+2023-12-24 16:26:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124fcd90>
+2023-12-24 16:26:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:26:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124fcd90>
+2023-12-24 16:27:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125599a0>
+2023-12-24 16:27:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:27:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125599a0>
+2023-12-24 16:27:15+0200 [-] [E] Job ExitNodesRefresh died with runtime 2614.8513 [low: 84.0000, high: 33960.0000]
+2023-12-24 16:27:15+0200 [-] Traceback (most recent call last):
+2023-12-24 16:27:15+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/globaleaks/jobs/job.py", line 49, in run
+2023-12-24 16:27:15+0200 [-]     yield self.operation()
+2023-12-24 16:27:15+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/lib/python3.9/site-packages/twisted/internet/defer.py", line 857, in _runCallbacks
+2023-12-24 16:27:15+0200 [-]     current.result = callback(  # type: ignore[misc]
+2023-12-24 16:27:15+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/lib/python3.9/site-packages/twisted/internet/endpoints.py", line 1020, in startConnectionAttempts
+2023-12-24 16:27:15+0200 [-]     raise error.DNSLookupError(
+2023-12-24 16:27:15+0200 [-] twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: deb.globaleaks.org.
+2023-12-24 16:27:15+0200 [-] [E] exception mail suppressed for exception (<class 'twisted.internet.error.DNSLookupError'>) [reason: special exception]
+2023-12-24 16:27:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112503040>
+2023-12-24 16:27:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:27:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112503040>
+2023-12-24 16:27:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125456a0>
+2023-12-24 16:27:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:27:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125456a0>
+2023-12-24 16:27:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125676a0>
+2023-12-24 16:27:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 16:27:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125676a0>
+2023-12-24 17:19:28+0200 [-] [E] Job ExitNodesRefresh died with runtime 1854.6959 [low: 81.0000, high: 33960.0000]
+2023-12-24 17:19:28+0200 [-] Traceback (most recent call last):
+2023-12-24 17:19:28+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/globaleaks/jobs/job.py", line 49, in run
+2023-12-24 17:19:28+0200 [-]     yield self.operation()
+2023-12-24 17:19:28+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/lib/python3.9/site-packages/twisted/internet/defer.py", line 857, in _runCallbacks
+2023-12-24 17:19:28+0200 [-]     current.result = callback(  # type: ignore[misc]
+2023-12-24 17:19:28+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/lib/python3.9/site-packages/twisted/internet/endpoints.py", line 1020, in startConnectionAttempts
+2023-12-24 17:19:28+0200 [-]     raise error.DNSLookupError(
+2023-12-24 17:19:28+0200 [-] twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: deb.globaleaks.org.
+2023-12-24 17:19:28+0200 [-] [E] exception mail suppressed for exception (<class 'twisted.internet.error.DNSLookupError'>) [reason: special exception]
+2023-12-24 17:19:28+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112545700>
+2023-12-24 17:19:28+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 17:19:28+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112545700>
+2023-12-24 17:19:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124714c0>
+2023-12-24 17:19:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 17:19:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124714c0>
+2023-12-24 17:20:44+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112471910>
+2023-12-24 17:20:53+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 17:20:53+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112471910>
+2023-12-24 17:20:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112485940>
+2023-12-24 17:20:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 17:20:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112485940>
+2023-12-24 17:21:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125677f0>
+2023-12-24 17:21:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 17:21:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1125677f0>
+2023-12-24 18:47:29+0200 [-] [E] Job ExitNodesRefresh died with runtime 1391.5872 [low: 81.0000, high: 33960.0000]
+2023-12-24 18:47:29+0200 [-] Traceback (most recent call last):
+2023-12-24 18:47:29+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/globaleaks/jobs/job.py", line 49, in run
+2023-12-24 18:47:29+0200 [-]     yield self.operation()
+2023-12-24 18:47:29+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/lib/python3.9/site-packages/twisted/internet/defer.py", line 857, in _runCallbacks
+2023-12-24 18:47:29+0200 [-]     current.result = callback(  # type: ignore[misc]
+2023-12-24 18:47:29+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/lib/python3.9/site-packages/twisted/internet/endpoints.py", line 1020, in startConnectionAttempts
+2023-12-24 18:47:29+0200 [-]     raise error.DNSLookupError(
+2023-12-24 18:47:29+0200 [-] twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: deb.globaleaks.org.
+2023-12-24 18:47:29+0200 [-] [E] exception mail suppressed for exception (<class 'twisted.internet.error.DNSLookupError'>) [reason: special exception]
+2023-12-24 18:47:29+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112471f40>
+2023-12-24 18:47:29+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 18:47:29+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112471f40>
+2023-12-24 18:47:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112544460>
+2023-12-24 18:47:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 18:47:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112544460>
+2023-12-24 20:08:21+0200 [-] [E] Job ExitNodesRefresh died with runtime 1291.5110 [low: 81.0000, high: 33960.0000]
+2023-12-24 20:08:21+0200 [-] Traceback (most recent call last):
+2023-12-24 20:08:21+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/globaleaks/jobs/job.py", line 49, in run
+2023-12-24 20:08:21+0200 [-]     yield self.operation()
+2023-12-24 20:08:21+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/lib/python3.9/site-packages/twisted/internet/defer.py", line 857, in _runCallbacks
+2023-12-24 20:08:21+0200 [-]     current.result = callback(  # type: ignore[misc]
+2023-12-24 20:08:21+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/lib/python3.9/site-packages/twisted/internet/endpoints.py", line 1020, in startConnectionAttempts
+2023-12-24 20:08:21+0200 [-]     raise error.DNSLookupError(
+2023-12-24 20:08:21+0200 [-] twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: deb.globaleaks.org.
+2023-12-24 20:08:21+0200 [-] [E] exception mail suppressed for exception (<class 'twisted.internet.error.DNSLookupError'>) [reason: special exception]
+2023-12-24 20:08:21+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585fa0>
+2023-12-24 20:08:21+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 20:08:21+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112585fa0>
+2023-12-24 20:08:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112474a90>
+2023-12-24 20:08:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 20:08:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112474a90>
+2023-12-24 20:30:52+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112471970>
+2023-12-24 20:30:52+0200 [-] [E] Job ExitNodesRefresh died with runtime 1105.6577 [low: 81.0000, high: 33960.0000]
+2023-12-24 20:30:52+0200 [-] Traceback (most recent call last):
+2023-12-24 20:30:52+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/globaleaks/jobs/job.py", line 49, in run
+2023-12-24 20:30:52+0200 [-]     yield self.operation()
+2023-12-24 20:30:52+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/lib/python3.9/site-packages/twisted/internet/defer.py", line 857, in _runCallbacks
+2023-12-24 20:30:52+0200 [-]     current.result = callback(  # type: ignore[misc]
+2023-12-24 20:30:52+0200 [-]   File "/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/lib/python3.9/site-packages/twisted/internet/endpoints.py", line 1020, in startConnectionAttempts
+2023-12-24 20:30:52+0200 [-]     raise error.DNSLookupError(
+2023-12-24 20:30:52+0200 [-] twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: deb.globaleaks.org.
+2023-12-24 20:30:52+0200 [-] [E] exception mail suppressed for exception (<class 'twisted.internet.error.DNSLookupError'>) [reason: special exception]
+2023-12-24 20:30:52+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 20:30:52+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112471970>
+2023-12-24 20:30:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124f6cd0>
+2023-12-24 20:30:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 20:30:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124f6cd0>
+2023-12-24 20:31:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11257e460>
+2023-12-24 20:31:05+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 20:31:05+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x11257e460>
+2023-12-24 20:31:15+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112545a90>
+2023-12-24 20:31:15+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 20:31:15+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112545a90>
+2023-12-24 20:31:25+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112533cd0>
+2023-12-24 20:31:25+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 20:31:25+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112533cd0>
+2023-12-24 20:31:35+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112500430>
+2023-12-24 20:31:35+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 20:31:35+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112500430>
+2023-12-24 20:31:45+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124799a0>
+2023-12-24 20:31:45+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 20:31:45+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x1124799a0>
+2023-12-24 20:31:55+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112544ca0>
+2023-12-24 20:31:55+0200 [-] [E] [1] SMTP connection failed (Exception: DNS lookup failed: mail.globaleaks.org.)
+2023-12-24 20:31:55+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112544ca0>
+2023-12-24 20:32:05+0200 [-] Starting factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112472a30>
+2023-12-24 20:32:16+0200 [-] Stopping factory <twisted.mail.smtp.ESMTPSenderFactory object at 0x112472a30>
+2023-12-24 20:57:16+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112424160>, <twisted.internet.endpoints._WrapperEndpoint object at 0x1123c9220>)
+2023-12-24 20:57:19+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x112424160>, <twisted.internet.endpoints._WrapperEndpoint object at 0x1123c9220>)
+2023-12-24 21:30:53+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x11246a430>, <twisted.internet.endpoints._WrapperEndpoint object at 0x11243b370>)
+2023-12-24 21:30:54+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x11246a430>, <twisted.internet.endpoints._WrapperEndpoint object at 0x11243b370>)
+2023-12-24 21:57:16+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x111eca160>, <twisted.internet.endpoints._WrapperEndpoint object at 0x11241e6d0>)
+2023-12-24 21:57:17+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x111eca160>, <twisted.internet.endpoints._WrapperEndpoint object at 0x11241e6d0>)
+2023-12-24 22:27:15+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1124215e0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x112343370>)
+2023-12-24 22:27:16+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1124215e0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x112343370>)
+2023-12-24 22:40:22+0200 [-] Stopping factory <Site object at 0x10f942f70>
+2023-12-24 22:40:22+0200 [-] Server Shut Down.
+2023-12-24 22:40:28+0200 [-] twistd 22.4.0 (/Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/env/bin/python 3.9.18) starting up.
+2023-12-24 22:40:28+0200 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2023-12-24 22:40:29+0200 [-] [E] Found an already initialized database version: 66
+2023-12-24 22:40:30+0200 [-] Starting factory <Site object at 0x10e4aa4f0>
+2023-12-24 22:40:30+0200 [-] [E] Failed to initialize Tor connection; error: Tor control port not open on /Users/amukoma/Documents/github.com/devsbranch/GlobaLeaks/backend/workingdir/tmp/tor_control; waiting for Tor to become available
+2023-12-24 22:40:30+0200 [-] GlobaLeaks is now running and accessible at the following urls:
+2023-12-24 22:40:30+0200 [-] - [HTTPS]: https://127.0.0.1:8443
+2023-12-24 22:40:30+0200 [-] - [Tor]:  http://m3ydymm7qtmhqu3l4ixnmdqlrkma33tefw6cta2wowxsriuls4ot42id.onion
+2023-12-24 22:40:30+0200 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1101865e0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x110183af0>)
+2023-12-24 22:40:31+0200 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x1101865e0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x110183af0>)
