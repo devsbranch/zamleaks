@@ -5,7 +5,8 @@ set -e
 TARGETS="bionic bookworm bullseye buster focal jammy"
 DISTRIBUTION="bookworm"
 TAG="main"
-LOCAL_ENV=0
+# LOCAL_ENV=0
+LOCAL_ENV=1
 NOSIGN=0
 PUSH=0
 
@@ -80,7 +81,7 @@ mkdir -p $BUILDSRC && cd $BUILDSRC
 if [ $LOCAL_ENV -eq 1 ]; then
   git clone --branch="$TAG" --depth=1 file://$(pwd)/../../../GlobaLeaks .
 else
-  git clone --branch="$TAG" --depth=1 https://github.com/globaleaks/GlobaLeaks.git .
+  git clone --branch="$TAG" --depth=1 https://github.com/devsbranch/zamleaks.git GlobaLeaks
 fi
 
 cd client && npm install -d && ./node_modules/grunt/bin/grunt build
@@ -126,3 +127,5 @@ if [ $PUSH -eq 1 ]; then
     cd ../../
   done
 fi
+
+./scripts/install.sh -y -n
