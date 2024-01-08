@@ -34,11 +34,15 @@ cd client && npm install -d && ./node_modules/grunt/bin/grunt build && cd ..
 echo "NETWORK_SANDBOXING=0" > debian/default
 echo "APPARMOR_SANDBOXING=0" >> debian/default
 
+# modprobe ip_tables
+# echo "ip_tables" >> /etc/modules
+
 debuild -i -us -uc -b
 
 mkdir -p /globaleaks/deb/
 cp ../globaleaks*deb /globaleaks/deb/
 
-echo "Running Install"
+# echo "Running Install"
+whoami
 
-./scripts/install.sh -y -n
+# ./scripts/install.sh -y -n

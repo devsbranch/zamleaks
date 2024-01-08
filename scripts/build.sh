@@ -5,8 +5,7 @@ set -e
 TARGETS="bionic bookworm bullseye buster focal jammy"
 DISTRIBUTION="bookworm"
 TAG="main"
-# LOCAL_ENV=0
-LOCAL_ENV=1
+LOCAL_ENV=0
 NOSIGN=0
 PUSH=0
 
@@ -82,11 +81,18 @@ if [ $LOCAL_ENV -eq 1 ]; then
   git clone --branch="$TAG" --depth=1 file://$(pwd)/../../../GlobaLeaks .
 else
   git clone --branch="$TAG" --depth=1 https://github.com/devsbranch/zamleaks.git GlobaLeaks
+  cd GlobaLeaks
 fi
 
-cd client && npm install -d && ./node_modules/grunt/bin/grunt build
+cd client && npm install -d && ./node_modules/grunt/bin/grunt build && cd ..
 
 cd $ROOTDIR
+
+export LC_ALL=en_US.utf8
+export DEBIAN_FRONTEND=noninteractive
+debootstrap --arch=amd64 bookworm "build/" http://deb.debian.org/debian/
+# echo "deb http://deb.debian.org/debian bookworm main contrib" > /etc/apt/sources.list
+echo "deb http://deb.debian.org/debian bookworm main contrib" >> /etc/apt/sources.list
 
 for TARGET in $TARGETS; do
   echo "Packaging GlobaLeaks for:" $TARGET
@@ -99,12 +105,12 @@ for TARGET in $TARGETS; do
   cp -r $BUILDSRC $BUILDDIR
   cd "$BUILDDIR/src"
 
-  rm debian/control backend/requirements.txt
+  # rm debian/control backend/requirements.txt
 
-  cp debian/controlX/control.$TARGET  debian/control
-  cp backend/requirements/requirements-$TARGET.txt backend/requirements.txt
+  # cp debian/controlX/control.$TARGET  debian/control
+  # cp backend/requirements/requirements-$TARGET.txt backend/requirements.txt
 
-  sed -i "s/stable; urgency=/$TARGET; urgency=/g" debian/changelog
+  # sed -i "s/stable; urgency=/$TARGET; urgency=/g" debian/changelog
 
   if [ $NOSIGN -eq 1 ]; then
     debuild -i -us -uc -b
@@ -128,4 +134,4 @@ if [ $PUSH -eq 1 ]; then
   done
 fi
 
-./scripts/install.sh -y -n
+# ./scripts/install.sh -y -n

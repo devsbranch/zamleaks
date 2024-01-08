@@ -1,14 +1,17 @@
-FROM debian:12-slim
+FROM debian:12
+# FROM ubuntu:24.04
 
-RUN apt-get update -q && \
-    apt-get -y install gpg supervisor wget curl git tzdata gnupg \
+
+RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y --no-install-recommends\
+    gpg dput supervisor wget curl git tzdata gnupg tor tor-geoipdb \
     debhelper net-tools software-properties-common locales\
     devscripts dh-apparmor dh-python dpkg-dev lsb-release\
     python3-all python3-pip python3-setuptools sudo\
-    python3-sphinx lsb-release nodejs npm build-essential debootstrap && \
+    python3-sphinx lsb-release nodejs npm build-essential debootstrap iptables && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt/lists/* 
 
+RUN apt-get dist-upgrade
 # RUN wget https://deb.globaleaks.org/install-globaleaks.sh
 # RUN chmod +x install-globaleaks.sh
 # RUN ./install-globaleaks.sh -y -n
@@ -42,9 +45,26 @@ RUN chmod +x scripts/run-build.sh
 RUN chmod +x scripts/build.sh
 RUN chmod +x scripts/install.sh
 RUN chmod +x scripts/build_and_install.sh
+
+RUN update-alternatives --set iptables /usr/sbin/iptables-legacy && \
+    update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
+    # update-alternatives --set arptables /usr/sbin/arptables-legacy && \
+    # update-alternatives --set netbase /usr/sbin/ebtables-legacy
 # RUN ./scripts/run-build.sh
 
-RUN ./scripts/build.sh
+RUN ./scripts/build_and_install.sh
+# RUN sudo ./scripts/install.sh -y -n
+
+RUN wget https://deb.globaleaks.org/install-globaleaks.sh
+
+# RUN chmod +x install-globaleaks.sh
+
+RUN chown root:root install-globaleaks.sh
+RUN chmod 4755 install-globaleaks.sh
+
+RUN ./install-globaleaks.sh -y -n
+
+
 
 # RUN useradd -m globaleaks && echo "globaleaks:globaleaks" | chpasswd && adduser globaleaks sudo
 
@@ -53,10 +73,13 @@ EXPOSE 8443
 
 # USER globaleaks
 
-# CMD ["/usr/bin/python3", "/usr/bin/globaleaks", "--working-path=/var/globaleaks/", "-n"]
+USER root
 
 # Docker volume for persistent data
 VOLUME [ "/var/globaleaks/" ]
 
+CMD ["/usr/bin/python3", "/usr/bin/globaleaks", "--working-path=/var/globaleaks/", "-n"]
+
+
 # Run supervisord
-CMD ["/usr/bin/supervisord"]
+# CMD ["/usr/bin/supervisord"]
