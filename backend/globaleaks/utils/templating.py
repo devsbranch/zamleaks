@@ -194,7 +194,7 @@ class NodeKeyword(Keyword):
         return self.HTTPSSite() + self.UrlPath()
 
     def DocumentationUrl(self):
-        return 'https://docs.globaleaks.org'
+        return 'https://docs.zamleaks.com'
 
     def LoginUrl(self):
         return self.Site() + '/#/login'
@@ -476,10 +476,10 @@ class SoftwareUpdateKeyword(UserNodeKeyword):
         return '%s' % __version__
 
     def ChangeLogUrl(self):
-        return 'https://github.com/globaleaks/GlobaLeaks/blob/main/CHANGELOG'
+        return 'https://docs.zamleaks.com'
 
     def UpdateGuideUrl(self):
-        return 'https://docs.globaleaks.org/en/main/user/admin/UpgradeGuide.html'
+        return 'https://docs.zamleaks.com'
 
 
 class UserCredentials(Keyword):

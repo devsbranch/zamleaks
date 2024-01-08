@@ -22,8 +22,8 @@ describe("admin configure network", () => {
     cy.get('[data-ng-model="csr_cfg.country"]').type("IT");
     cy.get('[data-ng-model="csr_cfg.province"]').type("Milano");
     cy.get('[data-ng-model="csr_cfg.city"]').type("Lombardia");
-    cy.get('[data-ng-model="csr_cfg.company"]').type("GlobaLeaks");
-    cy.get('[data-ng-model="csr_cfg.email"]').type("admin@globaleaks.org");
+    cy.get('[data-ng-model="csr_cfg.company"]').type("ZamLeaks");
+    cy.get('[data-ng-model="csr_cfg.email"]').type("admin@zamleaks.com");
     cy.get("#csrSubmit").click();
 
     cy.get("#deleteKey").click();

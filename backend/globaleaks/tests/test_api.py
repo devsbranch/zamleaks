@@ -94,7 +94,7 @@ class TestAPI(TestGL):
         ]
 
         for method, status_code in test_cases:
-            request = forge_request(uri=b"https://www.globaleaks.org/", method=method)
+            request = forge_request(uri=b"https://www.zamleaks.com/", method=method)
             self.api.render(request)
             self.assertEqual(request.responseCode, status_code)
             for headerName, expectedHeaderValue in server_headers:
@@ -103,7 +103,7 @@ class TestAPI(TestGL):
 
     def test_request_state_and_redirects(self):
         # Remote HTTP connection is always redirected to HTTPS
-        request = forge_request(uri=b'http://www.globaleaks.org/')
+        request = forge_request(uri=b'http://www.zamleaks.com/')
         self.api.render(request)
         self.assertFalse(request.client_using_tor)
         self.assertEqual(request.responseCode, 302)
@@ -121,8 +121,8 @@ class TestAPI(TestGL):
         self.assertEqual(request.responseCode, 302)
 
         # Remote HTTP connection not coming from Tor should be redirected to HTTPS
-        request = forge_request(uri=b'http://www.globaleaks.org/', client_addr=IPv4Address('TCP', '8.8.8.8', 12345))
+        request = forge_request(uri=b'http://www.zamleaks.com/', client_addr=IPv4Address('TCP', '8.8.8.8', 12345))
         self.api.render(request)
         self.assertFalse(request.client_using_tor)
         self.assertEqual(request.responseCode, 302)
-        self.assertEqual(request.responseHeaders.getRawHeaders('location')[0], 'https://www.globaleaks.org/')
+        self.assertEqual(request.responseHeaders.getRawHeaders('location')[0], 'https://www.zamleaks.com/')

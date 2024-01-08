@@ -147,7 +147,7 @@ def init_state():
 
     State.settings.enable_api_cache = False
     State.tenants[1] = TenantState()
-    State.tenants[1].cache.hostname = 'www.globaleaks.org'
+    State.tenants[1].cache.hostname = 'www.zamleaks.com'
     State.tenants[1].cache.encryption = True
 
     State.init_environment()
@@ -308,7 +308,7 @@ class MockDict:
             'disclaimer_text': '',
             'whistleblowing_question': '',
             'whistleblowing_button': '',
-            'hostname': 'www.globaleaks.org',
+            'hostname': 'www.zamleaks.com',
             'rootdomain': 'antani.gov',
             'email': 'email@dummy.net',
             'languages_supported': [],  # ignored
@@ -366,7 +366,7 @@ class MockDict:
 
         self.dummyNetwork = {
             'anonymize_outgoing_connections': True,
-            'hostname': 'www.globaleaks.org',
+            'hostname': 'www.zamleaks.com',
             'https_admin': True,
             'https_analyst': True,
             'https_custodian': True,
@@ -389,12 +389,12 @@ class MockDict:
             'admin_username': 'admin',
             'admin_name': 'Giovanni Pellerano',
             'admin_password': 'P4ssword!@#',
-            'admin_mail_address': 'evilaliv3@globaleaks.org',
+            'admin_mail_address': 'admin@zamleaks.com',
             'admin_escrow': True,
             'receiver_username': 'receipient',
             'receiver_name': 'Fabio Pietrosanti',
             'receiver_password': 'P4ssword!@#',
-            'receiver_mail_address': 'naif@globaleaks.org',
+            'receiver_mail_address': 'admin@zamleaks.com',
             'profile': 'default',
             'skip_admin_account_creation': False,
             'skip_recipient_account_creation': False,
@@ -462,7 +462,7 @@ def get_file_upload(self):
 BaseHandler.get_file_upload = get_file_upload
 
 
-def forge_request(uri=b'https://www.globaleaks.org/',
+def forge_request(uri=b'https://www.zamleaks.com/',
                   headers=None, body='', args=None, client_addr=None, method=b'GET'):
     """
     Creates a twisted.web.Request compliant request that is from an external
@@ -601,7 +601,7 @@ class TestGL(unittest.TestCase):
 
     @transact
     def set_hostnames(self, session, i):
-        hosts = [('www.globaleaks.org', 'aaaaaaaaaaaaaaaa.onion'),
+        hosts = [('www.zamleaks.com', 'aaaaaaaaaaaaaaaa.onion'),
                  ('www.domain-a.com', 'bbbbbbbbbbbbbbbb.onion'),
                  ('www.domain-b.com', 'cccccccccccccccc.onion')]
 
@@ -941,7 +941,7 @@ class TestHandler(TestGLWithPopulatedDB):
         self.session = None
         return TestGL.setUp(self)
 
-    def request(self, body='', uri=b'https://www.globaleaks.org/',
+    def request(self, body='', uri=b'https://www.zamleaks.org/',
                 user_id=None, role=None, multilang=False, headers=None, args=None,
                 client_addr=None, handler_cls=None, attached_file=None,
                 kwargs=None, token=False):

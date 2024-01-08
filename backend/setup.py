@@ -27,7 +27,7 @@ setup(
     author=globaleaks.__author__,
     author_email=globaleaks.__email__,
     license=globaleaks.__license__,
-    url='https://globaleaks.org/',
+    url='https://zamleaks.com/',
     cmdclass={'test': TestCommand},
     package_dir={'globaleaks': 'globaleaks'},
     test_suite='globaleaks.tests',

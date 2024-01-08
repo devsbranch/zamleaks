@@ -87,7 +87,7 @@ describe("Validating custom support url", () => {
 
     cy.get("[data-ng-model='resources.node.custom_support_url']").clear();
     cy.get("[data-ng-model='resources.node.custom_support_url']").type(
-      "https://www.globaleaks.org/"
+      "https://www.zamleaks.com/"
     );
 
     cy.get("[data-ng-click='updateNode()']").last().click();
@@ -95,6 +95,6 @@ describe("Validating custom support url", () => {
 
     cy.get("[data-ng-model='resources.node.custom_support_url']")
       .invoke("val")
-      .should("equal", "https://www.globaleaks.org/");
+      .should("equal", "https://www.zamleaks.com/");
   });
 });
