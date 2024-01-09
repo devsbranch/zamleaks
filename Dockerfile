@@ -1,6 +1,6 @@
 FROM python:3.8-slim
 
-RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y --no-install-recommends\
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends\
     gpg dput supervisor wget curl git tzdata gnupg tor tor-geoipdb \
     debhelper net-tools software-properties-common \
     devscripts dh-apparmor dh-python dpkg-dev lsb-release\
