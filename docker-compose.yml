@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  zamleaks:
+    build: .
+    restart: unless-stopped
+    container_name: zamleaks
+    network_mode: bridge
+    command: /bin/sh -c "backend/bin/globaleaks -n True"
+    volumes:
+      - .:/var/globaleaks
+    ports:
+      - 80:80
+      - 443:8443
+volumes:
+  zamleaks:
