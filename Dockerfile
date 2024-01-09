@@ -1,9 +1,9 @@
-FROM python:3.8-slim
+FROM python:3.8
 
-RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends\
-    gpg dput supervisor wget curl git tzdata gnupg tor tor-geoipdb \
+RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends\
+    gpg dput supervisor wget curl git tzdata tor tor-geoipdb \
     debhelper net-tools software-properties-common \
-    devscripts dh-apparmor dh-python dpkg-dev lsb-release\
+    devscripts dh-apparmor dh-python lsb-release\
     python3-all python3-pip python3-setuptools\
     python3-sphinx lsb-release nodejs npm build-essential debootstrap iptables
 
