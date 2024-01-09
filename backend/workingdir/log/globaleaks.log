@@ -35,3 +35,5 @@
 2024-01-09 21:38:43+0100 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x10dbb3670>, <twisted.internet.endpoints._WrapperEndpoint object at 0x10db42d30>)
 2024-01-09 22:08:43+0100 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x10db358b0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x10d5b8280>)
 2024-01-09 22:08:43+0100 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x10db358b0>, <twisted.internet.endpoints._WrapperEndpoint object at 0x10d5b8280>)
+2024-01-09 22:38:43+0100 [-] Starting factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x10d9ad160>, <twisted.internet.endpoints._WrapperEndpoint object at 0x10da5ad30>)
+2024-01-09 22:38:43+0100 [-] Stopping factory _HTTP11ClientFactory(<function HTTPConnectionPool._newConnection.<locals>.quiescentCallback at 0x10d9ad160>, <twisted.internet.endpoints._WrapperEndpoint object at 0x10da5ad30>)

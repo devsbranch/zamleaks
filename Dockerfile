@@ -1,7 +1,7 @@
 FROM python:3.8
 
 RUN apt-get update &&\
-    && DEBIAN_FRONTEND=noninteractive \
+    DEBIAN_FRONTEND=noninteractive \
     apt-get install -y --no-install-recommends \
     dput supervisor wget curl git nano tor tor-geoipdb \
     debhelper net-tools software-properties-common \
