@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM debian:12
 
 RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends\
     gpg dput supervisor wget curl git tzdata tor tor-geoipdb \
