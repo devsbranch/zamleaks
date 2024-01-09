@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM ubuntu:20.04
 
 RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends\
     gpg dput supervisor wget curl git tzdata tor tor-geoipdb \
@@ -6,6 +6,9 @@ RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-g
     devscripts dh-apparmor dh-python lsb-release\
     python3-all python3-pip python3-setuptools\
     python3-sphinx lsb-release nodejs npm build-essential debootstrap iptables
+
+RUN add-apt-repository ppa:deadsnakes/ppa 
+RUN apt-get install -y python3.9 && apt-get install python3-pip
 
 WORKDIR /var/globaleaks
 
@@ -17,5 +20,3 @@ EXPOSE 8080
 EXPOSE 8443
 
 RUN ./scripts/entrypoint.sh
-# ENTRYPOINT [ "./scripts/entrypoint.sh" ]
-# CMD ["/usr/bin/python3", "/var/globaleaks/backend/bin/globaleaks", "-z", "-n"]
